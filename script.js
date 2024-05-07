@@ -1,1 +1,5 @@
-const url ="https://api.github.com/users/john-smilga/followers?per_page=100"
+import {data} from './data.js'
+
+
+const Employees = await data()
+
