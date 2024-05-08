@@ -1,0 +1,12 @@
+.h-80{
+    height: 80vh;
+}
+.text-decoration-underline {
+    text-underline-offset: 10px;
+ 
+}
+.img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
