@@ -1,7 +1,14 @@
-import{data} from './data.js'
+
+const pagination = (employees)=>{
 const employeesPerPage = 9
-const employees = await data()
-const numberOfPage = Math.ceil(employees.length/9)
 
+    const numberOfPage = Math.ceil(employees.length/9)
 
-export{employeesPerPage, numberOfPage}
+    const newEmployees =  Array.from({length:numberOfPage},(_,index)=>{
+                        const start = index*employeesPerPage;
+                        return employees.slice(start,start+employeesPerPage)
+                        })
+
+    return newEmployees
+}
+export default pagination
