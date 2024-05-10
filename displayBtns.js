@@ -35,6 +35,9 @@ function displayBtns() {
       <div class="col-2 col-sm-1 bg-primary m-1 d-flex justify-content-center rounded text-light  hover-link js-page" style="max-width:20px" data-id="10" >
         10
       </div>
+       <div class="col-2 col-sm-1 bg-primary m-1 d-flex justify-content-center rounded text-light  hover-link js-page" style="max-width:20px" data-id="11" >
+        11
+      </div>
       <div class="col-2 col-sm-1 bg-primary m-1 d-flex justify-content-center rounded text-light  hover-link js-page" style="max-width:40px" data-id="next">
         Next
       </div>
