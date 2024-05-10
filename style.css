@@ -9,8 +9,20 @@
  
 }
 .img{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     object-position: center;
+}
+.hover-link{
+    opacity: 0.8;
+    color: white;
+}
+
+.hover-link:hover{
+transform: scale(1.08);
+ opacity:1;
+ cursor: pointer;
+ color: black;
+
 }
