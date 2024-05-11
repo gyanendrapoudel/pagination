@@ -19,8 +19,8 @@ pageNumbers.forEach((number,i)=>{
     number.addEventListener('click',(e)=>{
       let index = e.currentTarget.textContent.trim()
       if (index === 'Prev') {
-        if (slide < 1) {
-          slide = 10
+        if (slide < 2) {
+          slide = 11
         } else {
           slide -= 1
         }
@@ -31,11 +31,12 @@ pageNumbers.forEach((number,i)=>{
       }
       if (index === 'Next') {
         if (slide > 10) {
-          slide = 0
+          slide = 1
         } else {
           slide += 1
         }
         // making clicked btn active btn by adding click class
+        
         activeBtn(pageNumbers, slide)
         rendering(newEmployees[slide])
         return
@@ -65,9 +66,10 @@ async function details(){
 
 function activeBtn(pageNumbers, slide){
 pageNumbers.forEach((n, i) => {
-  
-  parseInt(n.dataset.id) === slide
-    ? `${pageNumbers[slide].classList.add('click')}`
-    : `${pageNumbers[i].classList.remove('click')}`
+
+    
+    parseInt(n.dataset.id) === slide
+      ? `${pageNumbers[slide].classList.add('click')}`
+      : `${pageNumbers[i].classList.remove('click')}`
 })
 }
