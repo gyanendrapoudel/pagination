@@ -8,6 +8,7 @@ let slide=0
 const employees = await details();
 
 // pages
+console.log(slide)
 
 rendering(newEmployees[slide])
 displayBtns();

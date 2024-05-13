@@ -5,7 +5,7 @@ function displayBtns() {
      <div class="col-2 col-sm-1 bg-primary m-1 d-flex justify-content-center rounded text-light hover-link js-page" style="max-width:40px" data-id="prev" >
        Prev
       </div>
-      <div class="col-2 col-sm-1 bg-primary m-1 d-flex justify-content-center rounded text-light hover-link js-page" style="max-width:20px" data-id="1"  >
+      <div class="col-2 col-sm-1 bg-primary m-1 d-flex justify-content-center rounded text-light hover-link js-page click" style="max-width:20px" data-id="1"  >
        1
       </div>
       <div class="col-2 col-sm-1 bg-primary m-1 d-flex justify-content-center rounded text-light hover-link js-page" style="max-width:20px" data-id="2" >
